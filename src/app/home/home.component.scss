@@ -1,0 +1,14 @@
+.open{
+  position: relative;
+  &:after{
+    content: '{';
+    color: orange;
+  }
+}
+.close{
+  position: relative;
+  &:after{
+    content: '}';
+    color: orange;
+  }
+}
