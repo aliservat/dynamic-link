@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
 
+# This Angular directive
+DynamicLinkDirective, is designed to dynamically handle different types of links within an Angular application. It checks the link provided and modifies the element's behavior accordingly. If the link starts with 'http://' or 'https://', it sets the href attribute and opens the link in a new tab. If the link starts with '/', it intercepts the click event and uses the Angular Router to navigate within the application. If the link starts with '#', it scrolls to the specified element on the page. The scrollToId method ensures smooth scrolling to the specified element, even when the user is already on the same page.
+# [preview](https://github.com/angular/angular-cli)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
